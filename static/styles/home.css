@@ -1,0 +1,31 @@
+h2 {
+    font-family: 'sans-serif';
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.homePage {
+    display: inline-block;
+    text-align: center;
+}
+
+.weatherText {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+}
+
+#weatherForm {
+    padding-left: 20px;
+}
+
+#weatherSubmit {
+    color:white;
+    background-color: #ed622f;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#weatherSubmit:hover {
+    cursor:pointer
+}

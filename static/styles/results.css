@@ -1,0 +1,21 @@
+#weatherResults {
+    background-color: #ed622f;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#outfitResults {
+    background-color: #c45127;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}

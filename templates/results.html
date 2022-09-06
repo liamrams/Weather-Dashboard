@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results Page</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/results.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="weatherResults">
+        <h3>Weather in {{ location }}</h3>
+        <h2>{{ temp }}° F</h2>
+        <h3>{{ weather }}</h3>
+        <h4>Feels like: {{ feels_like }}° F</h4>
+    </div>
+    <div id="outfitResults">
+        <h2>{{ phrase }}</h2>
+        <h3>Outerwear: {{ outerwear }}</h3>
+        <h3>Top: {{ top }}</h3>
+        <h3>Bottoms: {{ bottoms }}</h3>
+        <h3>Shoes: {{ shoes }}</h3>
+    </div>
+</body>
+</html>
